@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Korada Jithin Sai Kamal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f0f2f5;
+      color: #333;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #3498db;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #555;
+      margin-top: 10px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    section {
+      background: #fff;
+      padding: 30px;
+      margin-bottom: 30px;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      font-size: 1.8rem;
+      color: #3498db;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    section h2::after {
+      content: '';
+      width: 60px;
+      height: 3px;
+      background: #3498db;
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+      border-radius: 2px;
+    }
+    .skills, .certifications {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .skills p, .certifications p {
+      background: #ecf0f1;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-weight: 500;
+      flex: 1 1 150px;
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th {
+      background: #3498db;
+      color: white;
+      padding: 12px;
+      text-align: left;
+    }
+    td {
+      padding: 12px;
+      color: #555;
+    }
+    .experience-item, .project-item {
+      margin-bottom: 20px;
+    }
+    .experience-item h3, .project-item h3 {
+      font-size: 1.4rem;
+      color: #2c3e50;
+      margin-bottom: 8px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    @media (max-width: 768px) {
+      section {
+        padding: 20px;
+      }
+      header img {
+        width: 120px;
+        height: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="kamal.jpg" alt="Profile Picture">
+    <h1>Korada Jithin Sai Kamal</h1>
+    <p>Aspiring Full-Stack Developer and Problem Solver | Passionate about creating impactful digital experiences and crafting technological solutions.</p>
+  </header>
+
+  <section>
+    <h2>Career Objective</h2>
+    <p>As a Computer Science Engineering student with strong skills in full-stack development and problem-solving, I aim to contribute to innovative projects and deliver high-quality software in a dynamic, collaborative environment.</p>
+  </section>
+
+  <section>
+    <h2>Academic Qualifications</h2>
+    <table>
+      <tr>
+        <th>Institution</th>
+        <th>Year</th>
+        <th>GPA/Percentage</th>
+      </tr>
+      <tr>
+        <td>Anits</td>
+        <td>2022-2026</td>
+        <td>8.4</td>
+      </tr>
+      <tr>
+        <td>Sampathsai</td>
+        <td>2020-2022</td>
+        <td>9.0</td>
+      </tr>
+      <tr>
+        <td>Pragathi</td>
+        <td>2019-2020</td>
+        <td>9.9</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <p>C</p>
+      <p>Java</p>
+      <p>Python</p>
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>JavaScript</p>
+      <p>React</p>
+      <p>MySQL</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="experience-item">
+      <p><b>Art and Craft Intern:</b> Assisted in the creation of visually engaging projects for workshops using paper, clay, paints, and fabric.</p>
+    </div>
+    <div class="experience-item">
+      <h3>ExcelR</h3>
+      <p><b>Python Developer Intern:</b> Developed Python scripts for automation, achieving a 40% reduction in manual tasks. Collaborated with the team for code reviews and documentation improvement.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project-item">
+      <h3>Career Guidance Website</h3>
+      <p>Developed a personalized recommendation feature increasing engagement by 30%. Implemented secure user authentication for saving and tracking career paths.</p>
+    </div>
+    <div class="project-item">
+      <h3>E-Commerce Website</h3>
+      <p>Designed and deployed a full-stack platform for browsing, purchasing, and securely transacting products. Achieved a 20% improvement in retention through optimized performance.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <div class="certifications">
+      <p>NPTEL: Programming in Java</p>
+      <p>NPTEL: DSA Using Java</p>
+      <p>APSSDC: AWS Cloud Practitioner</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Korada Jithin Sai Kamal. All rights reserved.
+  </footer>
+
+</body>
+</html>
